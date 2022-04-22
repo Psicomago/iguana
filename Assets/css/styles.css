@@ -34,19 +34,24 @@ header{
     /* position: aboslute; */
     width: 1280;
     height: 116;
-    background-color: aqua;
+    text-align: center;
+    background-color: transparent;
 }
 #caja-2{
-    /* position: aboslute; */
+    /* caja de iconos */
+    padding-bottom: 20px;
     width: 1280;
     height: 116;
-    background-color: red;
+    text-align: center;
+    background-color: transparent;
 }
 #caja-3{
-    /* position: aboslute; */
+    /* caja de textos de iconos*/
+    padding-bottom: 20px;
     width: 1280;
     height: 116;
-    background-color: yellow;
+    text-align: center;
+    background-color: transparent;
 }
 /* clases etiquetas */
 h1{
@@ -79,7 +84,9 @@ h5{
 i{
     padding: 20px;
     margin: 20px;
-    color: ;
+    width: 57px;
+    height: 37;
+    color: white;
     background-color: transparent;
 }
 /* clases */
@@ -113,9 +120,19 @@ i{
     background-color: #000000;
 }
 .grid2{
-    display: inline-grid;
-    grid-template-columns: 1280px repeat(2, 425px) 426;
+    display: inline-block;
+    grid-template-rows: repeat(3, 1280);
     grid-row: repeat(2, 174px);
     justify-items: center;
     align-items: center;
-    background-color: #1e1a13;
+    background-color: #1E1A13;
+    opacity: 98%;
+}
+.grid3{
+    display: inline-grid;
+    grid-template-columns: 1280px 640px 640px;
+    height: 348px;
+    justify-items: center;
+    align-items: center;
+    background-color: #000000;
+}
