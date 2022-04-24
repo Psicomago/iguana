@@ -9,6 +9,15 @@ header{
     width: 1280;
     height: auto;
 }
+footer{
+    background: #1E1A13;
+    opacity: 94%;
+    width: 1280px;
+    height: 102;
+    text-align: center;
+    font: 300,raleway;
+    margin: 0px;
+}
 /* clases por id */
 #contenedor{
     text-align: center;
@@ -39,10 +48,11 @@ header{
 }
 #caja-2{
     /* caja de iconos */
-    padding-bottom: 20px;
+    padding-bottom:20px;
     width: 1280;
     height: 116;
-    text-align: center;
+    justify-content: center;
+    text-align:center
     background-color: transparent;
 }
 #caja-3{
@@ -50,8 +60,28 @@ header{
     padding-bottom: 20px;
     width: 1280;
     height: 116;
-    text-align: center;
     background-color: transparent;
+}
+#icono1{
+    padding-left: 380px;
+    font-size: 40px;
+}
+#icono2{
+    padding-left: 150px;
+    font-size: 35px;
+}
+#icono3{
+    padding-left: 150px;
+    font-size: 40px;
+}
+#ojo{
+    padding-left: 380px;
+}
+#paci{
+    padding-left: 130px;
+}
+#color{
+    padding-left: 100px;
 }
 /* clases etiquetas */
 h1{
@@ -59,7 +89,8 @@ h1{
     margin: 0px;
     background-color: #000000;
     font-size: 59px;
-    font-weight: 300;
+    font-weight: 500;
+    font: 500,raleway;
     text-align: center;
     color: #FFFFFF;
 }
@@ -72,21 +103,34 @@ h2{
     text-align: center;
     font-style: normal;
     font-weight: 500;
+    font: 500,raleway;
+    font-size: 40px;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 100%;
     margin: 0px;
     padding: 20px;
 }
-h5{
-    color: white;
+h3{
+    padding-left: 20px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 300;
+    font: 300,raleway;
+    text-align: center;
+}
+h4{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 300;
+    font: 300,raleway;
 }
 i{
     padding: 20px;
     margin: 20px;
-    width: 57px;
-    height: 37;
-    color: white;
+    color: #FFFFFF;
     background-color: transparent;
 }
 /* clases */
@@ -99,6 +143,8 @@ i{
     /* ui propiedades */
     text-align: left;
     font-size: 16px;
+    font-weight: 300;
+    font: 300,raleway;
     color: #FFFFFF;
     opacity: 1;
     margin: 0px;
@@ -130,9 +176,13 @@ i{
 }
 .grid3{
     display: inline-grid;
-    grid-template-columns: 1280px 640px 640px;
+    grid-template-columns: 427px 426px 427px;
     height: 348px;
     justify-items: center;
     align-items: center;
     background-color: #000000;
+    opacity: 96%;
+}
+.p-l{
+    left: 326px;
 }
